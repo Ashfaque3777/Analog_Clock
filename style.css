@@ -1,0 +1,62 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(40, 40, 40);
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.clock {
+  width: 25rem;
+  height: 25rem;
+  position: relative;
+  border: 7px solid rgb(40, 40, 40);
+  box-shadow: -4px -4px 10px rgba(67, 67, 67, 0.5),
+    inset 4px 4px 10px rgba(0, 0, 0, 0.5),
+    inset -4px -4px 10px rgba(67, 67, 67, 0.5), 4px 4px 10px rgba(0, 0, 0, 0.3);
+  border-radius: 50%;
+}
+
+.hand {
+  width: 50%;
+  height: 6px;
+  background: rgb(97, 175, 255);
+  position: absolute;
+  right: 50%;
+  top: 50%;
+  border-radius: 6px;
+  transform: rotate(90deg);
+  transform-origin: 100%;
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+
+.hand.hour-hand {
+  width: 30%;
+  z-index: 1;
+}
+
+.hand.min-hand {
+  height: 3px;
+  width: 40%;
+  z-index: 2;
+}
+
+.hand.second-hand {
+  background: rgb(238, 121, 26);
+  width: 45%;
+  height: 2px;
+}
+
+@media (max-width: 450px) {
+  .clock {
+    width: 15rem;
+    height: 15rem;
+  }
+}
