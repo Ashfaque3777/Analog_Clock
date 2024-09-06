@@ -1,0 +1,6 @@
+@media screen and (320px <= width <= 480px) {
+  .clock {
+    width: 15rem;
+    height: 15rem;
+  }
+}

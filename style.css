@@ -53,10 +53,3 @@ body {
   width: 45%;
   height: 2px;
 }
-
-@media (max-width: 450px) {
-  .clock {
-    width: 15rem;
-    height: 15rem;
-  }
-}
