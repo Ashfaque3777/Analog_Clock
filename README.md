@@ -19,11 +19,11 @@ A visually appealing analog clock created using HTML, CSS, and JavaScript. This 
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/your-repo.git
+   git clone https://github.com/Ashfaque3777/Analog_Clock.git
    ```
 2. **Navigate to the Project Directory:**
    ```bash
-   cd your-repo
+   cd Analog_Clock
    ```
 3. **Open `index.html` in Your Browser** to view the clock.
 
@@ -45,7 +45,7 @@ Contributions are welcome! If you’d like to contribute to the **Analog Clock**
 2. **Clone Your Fork**:
 
    ```bash
-   git clone https://github.com/your-username/analog-clock.git
+   git clone https://github.com/Ashfaque3777/Analog_Clock.git
    ```
 
 3. **Create a New Branch**:
