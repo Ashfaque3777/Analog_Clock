@@ -37,10 +37,41 @@ Deployed on [Netlify](https://analog-clock-317427.netlify.app) with a custom dom
 - Implement alarm or reminder functionality.
 - Enhance visual effects and themes for a more dynamic appearance.
 
+## Contributing
+
+Contributions are welcome! If you’d like to contribute to the **Analog Clock** project, please follow these steps:
+
+1. **Fork the Repository**: Click the “Fork” button at the top right of this page to create a copy of the repository under your GitHub account.
+2. **Clone Your Fork**:
+
+   ```bash
+   git clone https://github.com/your-username/analog-clock.git
+   ```
+
+3. **Create a New Branch**:
+
+   ```bash
+   git checkout -b feature-branch
+   ```
+
+4. **Make Your Changes**: Edit or add files as needed.
+5. **Commit Your Changes**:
+
+   ```bash
+   git add .
+   git commit -m "Description of your changes"
+   ```
+
+6. **Push to Your Fork**:
+
+   ```bash
+   git push origin feature-branch
+   ```
+
+7. **Create a Pull Request**: Go to the original repository and create a pull request from your forked repository.
+
+Thank you for contributing!
+
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
-
-## Contributing
-
-Feel free to open issues or submit pull requests if you have suggestions for improvements or enhancements.
